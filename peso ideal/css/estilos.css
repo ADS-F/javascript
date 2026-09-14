@@ -1,0 +1,10 @@
+/*Estilização da imagem*/
+img{
+    float: left; /*alinhamento a esquerda*/
+    height: 300px;
+    width: 300px;
+}
+
+h1{
+    border-bottom-style: inset; /*cria uma linha horizontal que separa o header*/
+}
