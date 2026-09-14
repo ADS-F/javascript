@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/png" href="images/balança.jpg" > <!--icone na aba da pagina-->
+    <link href="css/estilos.css" rel="stylesheet">
+    <title>Calculo do Peso Ideal</title>
+</head>
+<body>
+    <!--Imagem-->
+        <img src="images/balança.jpg" alt="Balança de peso">
+       
+        <!--Titulo  da pagina-->
+        <h1>Calculo do Peso Ideal</h1>
+        
+        <!--Formulario-->
+        <form>
+            <p> Nome: </p>
+            <input type="text" id="inNome" required>
+
+            <p>Sexo:
+                <input type="radio" name="sexo" id="inMasculino" required>Masculino
+                <input type="radio" name="sexo" id="inFeminino" required>Feminino
+            </p>
+
+            <p>Altura:
+                <input type="number" min="0" step="0.01" id="inAltura" required>
+            </p>
+            <input type="submit" value="Calcular Peso Ideal">
+            <input type="reset" value="Limpar campos">
+
+        </form>
+        <h3></h3>
+        <script src="main.js"></script>
+
+</body>
+</html>
